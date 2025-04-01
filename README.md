@@ -23,26 +23,6 @@ Il utilise **AJAX** pour charger dynamiquement les produits sans recharger la pa
 
 ---
 
-## Installation et Configuration
-
-###
-  1- Cloner le projet  
-```bash
-git clone https://github.com/KoloinaRan/EasyShop-ProduitsEtPrix.git
-```
-  2- Configurer la base de données
-Ouvrir phpMyAdmin et créer une base de données nommée produits.
-
-Importer le fichier produits.sql situé dans le dossier database/.
-
-  3- Modifier la connexion à la base de données
-Dans config.php, adapter les informations :
-
-  4- Lancer le serveur local (WAMP, XAMPP)
-Démarrer Apache et MySQL, puis ouvrir le projet dans le navigateur : http://localhost/EasyShop-ProduitsEtPrix
-
----
-
 ##  Démonstration des Fonctionnalités
 - Recherche AJAX: Lorsqu'un utilisateur tape un mot-clé, les produits correspondants s'affichent instantanément sans recharger la page.
 - Filtrage par catégorie: Un menu de filtres permet d'afficher uniquement les produits d’une catégorie spécifique.
